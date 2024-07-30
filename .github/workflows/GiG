@@ -105,4 +105,4 @@ contract GiggleCoin {
     }
 
     modifier whenPaused() {
-        require(paused, "Contract is no paised");
+        require(paused, "Contract is not paused");
